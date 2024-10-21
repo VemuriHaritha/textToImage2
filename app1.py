@@ -3,7 +3,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 # Streamlit title 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
-st.title(' A Free Text-to-Image Generator by Haritha V using Stable diffusion')
+st.title('A free Text-to-Image Generator using Stable Diffusion API By Haritha')
 prompt = st.text_input("Enter a text prompt:", value="A serene beach at sunset")
 if st.button("Generate Image"):
     API_URL = "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4"
