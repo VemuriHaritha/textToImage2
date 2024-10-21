@@ -4,7 +4,7 @@ from PIL import Image
 from io import BytesIO
 
 # Streamlit title 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
-st.title('Text-to-Image Generator by Haritha V')
+st.title('Text-to-Image Generator by Haritha V by using stable diffusion')
 
 # Text prompt input
 prompt = st.text_input("Enter a text prompt:", value="A serene beach at sunset")
