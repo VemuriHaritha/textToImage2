@@ -9,6 +9,6 @@ pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 python-slugify==8.0.4
 pytz==2024.1
-numpy>=1.25.0
+numpy==1.21.6
 requests==2.31.0        # For making API calls to Hugging Face
-pandas==2.1.1           # For DataFrame operations (ensure compatibility with numpy)
+pandas==1.5.3   # For DataFrame operations (ensure compatibility with numpy)
